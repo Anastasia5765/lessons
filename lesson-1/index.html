@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8"/>
+</head>
+<body>
+<main class="content">
+  <aside class="left">
+    <p>Левый сайдбар</p>
+  </aside>
+
+  <aside class="right">
+    <p>Правый сайдбар</p>
+  </aside>
+</main>
+</body>
+</html>
+
+<style>
+  .left, .right {
+    width: 20%;
+    height: 100%;
+    background-color: #4A5073;
+  }
+
+  .content {
+    display: flex;
+    margin: 50px;
+    height: calc(100vh - 100px);
+    background-color: #DBE2EE;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+
+  p {
+    text-align: center;
+    color: #fff;
+  }
+</style>
