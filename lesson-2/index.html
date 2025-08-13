@@ -1,11 +1,190 @@
+<!DOCTYPE html>
 <html lang="ru">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Lesson 2</title>
+    <meta charset="UTF-8">
+    
 </head>
+
+<title>
+    Шпаргалка по тегам
+</title>
+
 <body>
 
-<table></table>
-
+<h1><b><center>ОСНОВНЫЕ ТЕГИ HTML</center></b></h1>
+<table  border="2" style="width: 100%; table-layout: fixed;">
+  <colgroup>
+    <col style="width: 40%;">
+    <col style="width: 50%;">
+    <col style="width: 30%;">
+  </colgroup>
+  <tbody>
+    <tr style="color: red;background-color:rgb(209, 164, 229)"> 
+      <td  colspan="3"<i><center>1) <i>СТРУКТУРА Web-страницы</i> </center></i></td>
+    </tr>  
+    <tr>
+      <td style="color: rgb(255, 0, 0);"><b>&lt;html&gt;&lt;/html&gt;</b></td>
+      <td>Начало и конец страницы</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style ="color: rgb(255, 0, 0);"><b>&lt;head&gt;&lt;/head&gt; </b></td>
+      <td>Описание страницы, содержащее различную информацию не отображаемую в теле документа.
+         Здесь распологается тег имени страницы и теги для поисковых машин</td>
+      <td></td>
+    </tr>
+        <tr>
+      <td style="color: rgb(255, 0, 0);"><b>&lt;title&gt;&lt;/title&gt;</b></td>
+      <td>Имя страницы </td>
+        <td></td>
+    </tr>
+    <tr>
+      <td style="color: rgb(255, 0, 0);"><b>&lt;body&gt;&lt;/body&gt;</b></td>
+      <td>Определяет видимую часть страницы</td>
+      <td></td>
+    </tr>
+    <tr height="12px">
+      <td  colspan="2"></td>
+      <td></td>
+    </tr>
+    <tr style="color: red;background-color:rgb(209, 164, 229)">
+      <td  colspan="2"><i><center>2) АТРИБУТЫ ТЕЛА ДОКУМЕНТА</center></i></td>
+      <td><i><center>Значения
+      атрибутов</center></i></td>
+    </tr>
+    <tr>
+      <td style="color: rgb(255, 0, 0);"&lt;body <i>background</i>="URL"&gt;</td>
+      <td>Фоновое изображение</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="color: rgb(255, 0, 0);" &lt;body <i>bgcolor</i>="#RRGGBB"&gt;</td>
+      <td>Цвет фона документа, используя значения цвета в виде RRGGBB - пример: FF0000 - красный цвет.</td>
+      <td rowspan="5">red,blue,#FF0000 и др.</td>
+    </tr>
+    <tr>
+      <td style="color: rgb(255, 0, 0);" &lt;body <i>text</i>="#RRGGBB"&gt;</td>
+      <td>Цвет текста документа, используя значения цвета в виде RRGGBB
+         - пример: 000000 - черный цвет.</td>
+    </tr>
+        <tr>
+      <td style="color: rgb(255, 0, 0);" &lt;body <i>link</i>="#RRGGBB"&gt;</td>
+      <td>Устанавливает цвет гиперссылок, используя значение цвета в 
+        виде RRGGBB - пример: 00FF00 - зеленый цвет.</td>
+    </tr>
+        <tr>
+      <td style="color: rgb(255, 0, 0);"&lt;body <i>vlink</i>="#RRGGBB"&gt;</td>
+      <td>Устанавливает цвет гиперссылок на которых вы уже побвали, 
+        используя значения в виде RRGGBB - пример: 666666 - серый цвет.
+      </td>
+    </tr>
+        <tr>
+      <td style="color: rgb(255, 0, 0);" &lt;body <i>alink</i>="#RRGGBB"&gt;</td>
+      <td>Устанавливает цвет гиперссылок при нажатии.</td>
+    </tr>
+    <tr height="12px">
+      <td  colspan="2"></td>
+      <td></td>
+    </tr>
+  </tbody>
+   <table border="2" style="width: 100%; table-layout: fixed;">
+  <colgroup>
+    <col style="width: 40%;">
+    <col style="width: 50%;">
+    <col style="width: 30%;">
+  </colgroup>
+  <tbody>
+    <tr style="color: red;background-color:rgb(209, 164, 229)"> 
+      <td  colspan="2"><i><center> 3)ТЕГИ ДЛЯ ФОРМАТИРОВАНИЯ ТЕКСТА </i></center></td>
+      <td><i><center>Значения
+атрибутов</center></i></td>
+    </tr>  
+    <tr>
+      <td style="color: rgb(255, 0, 0);" >&lt;h?&gt;&lt;/h?&gt;</td>
+      <td>Создает заголовок (уровни от 1 до 6)</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="color: rgb(255, 0, 0);" >&lt;h?align="*"&gt;&lt;/h&gt;</td>
+      <td>Заголовок с выравниванием</td>
+      <td rowspan="1">left,right,
+        center</td>
+      <td></td>
+    </tr>
+        <tr>
+      <td style="color: rgb(255, 0, 0);">&lt;p&gt;&lt;/p&gt;</td>
+      <td>Создает новый параграф</td>
+        <td></td>
+    </tr>
+    <tr>
+      <td style="color: rgb(255, 0, 0);">&lt;p align="*"&gt;&lt;/p&gt;</td>
+      <td>Выравнивает параграф относительно одной из сторон документа</td>
+      <td rowspan="1">left,right,
+        center,justify</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="color: rgb(255, 0, 0);">&lt;br&gt;</td>
+      <td>Вставляет перевод строки</td>
+      <td rowspan="1"></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="color: rgb(255, 0, 0);">&lt;center&gt;&lt;/center&gt;</td>
+      <td>Выравнивание по центру</td>
+      <td rowspan="1"></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="color: rgb(255, 0, 0);">&lt;div align="*"&gt;&lt;/p&gt;</td>
+      <td>Форматирование больших блоков текста страницы, также используется в таблицах стилей</td>
+      <td rowspan="1">left,right,
+        center,justify</td>
+      <td></td>
+    </tr>
+    <tr height="12px">
+      <td  colspan="2"></td>
+      <td></td>
+    </tr>
+    <tr style="color: red;background-color:rgb(209, 164, 229)">
+      <td  colspan="2"><i><center>4) ТЕГИ ДЛЯ ФОРМИРОВАНИЯ ШРИФТА</center></i></td>
+      <td><i><center>Значения
+атрибутов</center></i></td>
+    </tr>
+    <tr>
+      <td style="color: rgb(255, 0, 0);"> &lt;b&lt;&lt;/b&gt;</td>
+      <td><b>Жирный</b> </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="color: rgb(255, 0, 0);"> &lt;i&gt;&lt;/i&gt;</td>
+      <td> <i> Курсив</i></td>
+      <td rowspan="1">
+</td>
+    </tr>
+    <tr>
+      <td style="color: rgb(255, 0, 0);"> &lt;u&gt;&lt;/u&gt;</td>
+      <td><u>Подчеркнутый</u></td>
+      <td rowspan="1"></td>
+    </tr>
+        <tr>
+      <td style="color: rgb(255, 0, 0);"> &lt;sup&gt;&lt;/sup&gt;</td>
+      <td>Верхний индекс - пример а<sup>2</sup></td>
+      <td rowspan="1"></td>
+    </tr>
+        <tr>
+      <td style="color: rgb(255, 0, 0);"> &lt;sub&gt;&lt;/sub&gt;</td>
+      <td>Нижний индекс - пример: a<sub>2</sub>
+        <td rowspan="1"></td>
+      </td>
+    </tr>
+        <tr>
+      <td style="color: rgb(255, 0, 0);"> &lt;fond size=?&gt;&lt;/font&gt;</td>
+      <td>Размер шрифта в пределах от 1 до 7.</td>
+      <td rowspan="1"></td>
+    </tr>
+      </tbody>
+</table>
 </body>
-</html>
+</html> 
